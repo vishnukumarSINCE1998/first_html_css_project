@@ -1,0 +1,98 @@
+﻿<html>
+<head>
+<title> BODY LANGUAGE </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+sup{
+color:red !important;
+}
+.reed{
+color:black;
+}
+.container-fluid{
+display:flex !important;
+align-items:center !important;
+justify-content:center;
+padding-top:20px;
+background-image: url(./images/Screenshot\ \(96\).png);
+height: 100%;
+background-repeat: repeat;
+}
+.btn-primary{
+background-color:black !important;
+}
+.boxx{
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    height: 500px;
+    width: 505px;
+    justify-content: center;
+    display: grid;
+    
+
+/*background-color:silver;*/
+}
+.container-fluid{
+display:flex !important;
+align-items:center !important;
+justify-content:center;
+}
+button{
+  background-color: black;
+    font-weight: 700 ;
+}
+ h2 {
+  color: #ff0606;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-family: initial;
+}
+
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+
+<div class="boxx">
+<h2 align="center"> Book an interview </h2>
+<form action="./bl.html">
+Name: <sup> * </sup> <input type=text name="name" required/> <br/> <br/>
+Availability date: <sup> * </sup> <input type="date" name="adat" required/> <br/> <br/>
+Time slot: (24 hr)<sup> * </sup> <input type="number" name="time" required/> <br/> <br/>
+
+slot fee  of Rs 800 <sup> * </sup> <input type="checkbox" required/><br/><br/>
+<input style="color:rgb(255, 255, 255); font-weight:bolder;" type="checkbox" required/> <sup> * </sup> I agree to the T&C of V3S <br/> <br/>
+
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#examplModalCenter">
+  BOOK
+</button>
+
+<div class="modal fade" id="examplModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+       Our Relationship Manager will get back to you soon !!!
+      </div>
+      
+    </div>
+  </div>
+</div>
+</form>
+<div class="reed">
+Note:<sup>* </sup> If you are a community member you can access a number of such interview with just Rs 1000.</div>
+<br/>
+<button> <a href="./regcom.html"> JOIN AS COMMUNITY MEMBER </a> </button> <br/> <br/> 
+
+</div>
+</div>
+</body>
+</html>

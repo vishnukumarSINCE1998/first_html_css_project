@@ -1,0 +1,96 @@
+﻿<html>
+<head>
+<title> registration </title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+    *{
+  padding:0 !important;
+  margin:0 !important;
+}
+sup{
+color:red !important;
+}
+.modal-body{
+align-iems:center !important;
+justify-content:center !important;
+}
+input{
+color:orange !important;
+}
+.box{
+    font-weight: 800;
+    font-size: 16px;
+    color: #b2dbf2;
+    box-sizing: border-box;
+    display: flex !important;
+    height: 814px !important;
+    width: 382px !important;
+    /* background-color: gold !important; */
+    border: double solid black !important;
+    justify-content: center !important;
+
+}
+.container-fluid{
+    color: orange;
+    font-size: initial;
+
+height:auto;
+    font-weight: 400;
+display:flex !important;
+align-items:center !important;
+justify-content:center !important;
+padding-top:20px;
+background-image: url(./images/Screenshot\ \(207\).png);
+
+}
+textarea{
+width:260px !important;
+}
+button, select {
+    border: 4px solid rgb(3, 3, 3);
+    background-color: rgb(219 219 219);
+    text-transform: none;
+    color: rgb(255 0 55);
+    font-size: 23px;
+    font-weight: 800;}
+    
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="box">
+<form action="./V3S.html">
+Name: <sup>*</sup> <input type="text" placeholder="name" name ="name" size="25px" required/> <br/> <br/>
+Email ID: <sup>*</sup> <input type="email" placeholder="your mail id" name="mail" size="20px" required/> <br/> <br/>
+Date of Birth: <sup>*</sup> <input type="date" name="dob" required/> <br/> <br/>
+Mobile: <sup>*</sup> <input type="number" placeholder="contact number for OTP" name="mobile" name="mobile" minlength="10"  required/> <br/> <br/>
+Gender: <sup>*</sup> <label> <input type="radio" name="male" value="male" required/> Male </label>
+<label> <input type="radio" name="male" value="female" required/> Female </label>
+<label> <input type="radio" name="male" value="others" required/> Others </label> <br/> <br/>
+User name: <sup>*</sup><br/> <input type="text" placeholder="alphanumeric" name="user" size="30px" required/> <br/> 
+New Password: <sup>*</sup><br/> <input type="password" placeholder="min:8-capital/small/special/number" name="pass" minlength="8" size="30px" required/> <br/> 
+Re-type Password: <sup>*</sup> <input type="password" placeholder="retype the same" minlength="8" name="repass"  size="30px" required/> <br/><br/>
+
+Why do you want to join as a member? <sup> * </sup> <textarea name="opinion" required> </textarea> <br/>
+
+<input style="color:orange; font-weight:bolder;" type="checkbox" required/> <sup> * </sup>
+<span style="color:orange;"> Please record a short video which should showcase your ability as a mentor and should be an example of your experience.</span><br/>
+
+<input style="color:orange; font-weight:bolder;" type="checkbox" required/> <sup> * </sup>
+<span style="color:orange;"> Please send this video link to v3s.b.manyakshukla@gmail.com</span><br/>
+<p style="color:yellow;"> this will be peer reviewed and accepted, based on the acceptance % your form will be taken into consideration</p> 
+
+<input style="color:orange; font-weight:bolder;" type="checkbox" required/> <sup> * </sup> I agree to the T&C of V3S 
+<button> REGISTER AS INSTRUCTOR </button>
+ 
+</form>
+</div> </div>
+</body>
+</html>
